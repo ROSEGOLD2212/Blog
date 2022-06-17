@@ -1,0 +1,55 @@
+body{
+    margin:0;
+    padding-top: 800px;
+    text-align: center;
+}
+#img1 {
+    margin-top: 200px;
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+#welcome {
+    position: absolute;
+    height: 800px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: linear-gradient(#567ee3 0%, #83f2cf 100%);
+}
+h1{
+    font-size: 45px;
+}
+
+.menu{
+    list-style: none;
+    position: fixed;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.link{
+    float: left;
+color: lightcoral;
+padding-top: 5px;
+padding-left: 9px;
+padding-right: 9px;
+padding-bottom: 5px;
+font-family: fantasy;
+font-size: 20px;
+}
+#videos{
+    background-color: dodgerblue;
+}
+#aboutme{
+    background-color: #567ee3;
+}
+#movietrailer{
+    background-color: cornflowerblue;
+}
+#address{
+    background-color: lightblue;
+    }
